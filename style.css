@@ -1,0 +1,65 @@
+.container-navbar{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(49, 61, 72);
+    color: aliceblue;
+    margin-bottom: 0%;
+}
+
+.navbar-brand, .navbartext, .fa-bars{
+    color: aliceblue;
+
+} 
+
+.containermain{
+    margin-top: 0%;
+    width: 100vw;
+}
+
+.jumbootron{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 400px;
+    background-color: lightseagreen;
+}
+
+.colimagejuboo{
+    background-color: aqua;
+    height: 100px;
+}
+.card {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: black;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about{
+    padding-top: 50px;
+    width: 100vw;
+    min-height: 400px;
+    background-color: lightseagreen;
+    color: white;
+}
+
+.title{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+#footer-top{
+    background-color: rgb(49, 61, 72);
+}
+
+#footer-bot{
+    height: 200px;
+    background-color: rgb(31, 36, 42);
+    color: white;
+}
+
