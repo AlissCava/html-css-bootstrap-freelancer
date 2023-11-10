@@ -17,34 +17,62 @@
 }
 
 .jumbootron{
-    display: flex;
-    justify-content: center;
-    align-items: center;
     width: 100vw;
     min-height: 400px;
     background-color: lightseagreen;
+}
+
+.jumboocard{
+    width: 50%;
 }
 
 .colimagejuboo{
     background-color: aqua;
     height: 100px;
 }
+
+.jumbootitle, .fa-star, .subtitle, .ptopfoot{
+    color: white;
+}
+
+.subtitle{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
 .card {
     width: 90%;
-    height: 400px;
+    height: 300px;
     margin: 0 auto;
     border-radius: 10px;
-    background-color: black;
+    background-color: lightseagreen;
+    border-color: transparent;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
+.port{
+    background-color: transparent;
+}
+
+.imgport{
+    max-width: ;
+    max-height: 300px;
+}
+
+
 #about{
-    padding-top: 50px;
+    padding-top: 10px;
     width: 100vw;
-    min-height: 400px;
+    min-height: 100px;
     background-color: lightseagreen;
     color: white;
+}
+
+.aboutcard{
+  height: 50px;
+  width: 70%;
 }
 
 .title{
@@ -53,12 +81,36 @@
     font-size: 4rem;
 }
 
+.pcard{
+    width: 70%;
+    background-color: transparent;
+}
+
+.pcontact{
+    font-size: 2rem;
+}
+
+.hrcontact{
+    margin-top: -10px;
+    font-size: 2rem;
+}
+
 #footer-top{
     background-color: rgb(49, 61, 72);
 }
 
+.cardtopfoot{
+    height: 150px;
+    background-color:  rgb(49, 61, 72);
+}
+
+.ptopfoot{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 #footer-bot{
-    height: 200px;
+    height: 100px;
     background-color: rgb(31, 36, 42);
     color: white;
 }
